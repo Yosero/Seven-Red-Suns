@@ -1,1 +1,1 @@
-import classificator
+from classification import Classificator
