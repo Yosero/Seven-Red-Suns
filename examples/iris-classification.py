@@ -22,7 +22,7 @@ input_size = data.shape[1]
 hidden_size = 10
 output_size = num_classes
 
-nn = srs.Classificator(input_size, hidden_size, output_size, learning_rate=0.1)
+nn = srs.BasicClassificator(input_size, hidden_size, output_size, learning_rate=0.1)
 nn.learn(data_train, results_train)
 
 predictions = nn.predict(data_test)

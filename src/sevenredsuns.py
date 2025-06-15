@@ -1,1 +1,2 @@
-from classification import Classificator
+from classification import BasicClassificator
+from regression import BasicRegressor
